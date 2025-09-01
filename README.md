@@ -11,7 +11,7 @@ Chelsea also performs with a variety of ensembles including Jam Hot, Soiree, Hay
 
 ## Live Website
 👉 Visit the one-pager here:  
-https://yourusername.github.io/sky-eater-onepager/
+https://chelseaskyeater.github.io/skyeater/
 
 ## Contact
 - Email: skyeaterau@gmail.com  
