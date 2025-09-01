@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1">&lt;title&gt;Chelsea Skyeater // One-Pager&lt;/title&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ---------- PAGE &amp; PRINT ---------- */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>:root{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--ink:#1e1e24;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--muted:#5b5b6b;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--accent1:#e7dffd;<span class="Apple-converted-space">  </span>/* pastel purple */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--accent2:#cfe7ff;<span class="Apple-converted-space">  </span>/* pastel blue */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--chip:#f5f6ff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--line:#e7e7ef;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>@page { size: A4 portrait; margin: 14mm; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>@media print {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body { background: #fff !important; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.page { box-shadow: none; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>a[href^="http"]::after { content:""; } /* hide link URLs in print */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>* { box-sizing: border-box; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>body{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:var(--ink);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: linear-gradient(180deg, var(--accent1), var(--accent2));</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.page{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:#fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width: 210mm;<span class="Apple-converted-space">  </span>/* keep layout predictable on screen */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>min-height: 297mm;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-shadow: 0 10px 30px rgba(0,0,0,.08);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 18mm 16mm;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ---------- HEADER ---------- */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.header{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:grid;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns: 120px 1fr 120px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap:16px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>align-items:center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px solid var(--line);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius:16px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:14px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: linear-gradient(135deg, var(--accent1), var(--accent2));</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.headshot{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width:120px; height:120px; object-fit:cover; border-radius:10px; border:1px solid var(--line);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:#ddd;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.title h1{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:24px; line-height:1.1; margin:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>letter-spacing:.2px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.title .tag{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top:6px; color:var(--muted); font-weight:600;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:12.5px; line-height:1.35; text-align:right;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.contact a{ color:var(--ink); text-decoration:none; border-bottom:1px dotted var(--muted); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ---------- CHIPS ---------- */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.chips{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:14px 0 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:flex; flex-wrap:wrap; gap:8px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.chip{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:11.5px; padding:6px 10px; background:var(--chip);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px solid var(--line); border-radius:999px; font-weight:600;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ---------- GRID ---------- */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.grid{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:grid;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns: 1fr 1fr;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap:14px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top:18px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.card{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px solid var(--line);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius:14px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:14px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.card h2{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:15px; margin:0 0 8px; letter-spacing:.2px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.card p{ margin:0 0 8px; color:var(--ink); font-size:13.5px; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.list{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:8px 0 0; padding-left:18px; font-size:13.5px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.badge{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:inline-block; font-size:11px; font-weight:700; letter-spacing:.3px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:3px 8px; background:#fff; border:1px solid var(--line); border-radius:6px; margin:6px 6px 0 0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ---------- SKY EATER TILES ---------- */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.tiles{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:6px; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.tile{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px dashed var(--line); border-radius:12px; padding:10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background: #fafbff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.tile h3{ margin:0 0 6px; font-size:13.5px; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.tile ul{ margin:0; padding-left:18px; font-size:13px; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.muted{ color:var(--muted); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ---------- FOOTER / QR ---------- */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.qr{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position:absolute; right:16mm; bottom:16mm; width:100px; height:100px; border:1px solid var(--line); border-radius:8px; object-fit:contain; background:#fff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.qr-note{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position:absolute; right:16mm; bottom:8mm; font-size:10.5px; color:var(--muted); text-align:center; width:100px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>/* ---------- MOBILE FALLBACK ---------- */</p>
+<p class="p1"><span class="Apple-converted-space">  </span>@media (max-width: 900px){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.page{ width:auto; min-height:auto; padding:18px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.grid, .tiles{ grid-template-columns:1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.header{ grid-template-columns:80px 1fr; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.contact{ grid-column:1 / -1; text-align:left; }</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main class="page"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Header --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;img class="headshot" src="chelsea-skyeater.jpg" alt="Chelsea Skyeater headshot" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Chelsea Skyeater (Sky Eater Productions)&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="tag"&gt;Mermaid Trip-hop / Dub / DnB&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="chips"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="chip"&gt;Multi-instrumentalist&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="chip"&gt;Vocalist&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="chip"&gt;Producer&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="chip"&gt;Composer&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href="mailto:skyeaterau@gmail.com"&gt;skyeaterau@gmail.com&lt;/a&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;&lt;strong&gt;Phone:&lt;/strong&gt; +61&amp;nbsp;473&amp;nbsp;130&amp;nbsp;989&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href="https://linktr.ee/sky.eater"&gt;linktr.ee/sky.eater&lt;/a&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="muted" style="margin-top:6px;"&gt;Based: Northern Rivers, AUS · Export-ready&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Top grid: Artist About + Sky Eater overview --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;article class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;About Chelsea&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Chelsea Skyeater is a multi-instrumentalist, vocalist, and producer who moves fluidly between worlds — from dub, trip-hop, and drum &amp;amp; bass to soul, funk, and jazz. Fronting her flagship project &lt;strong&gt;Sky Eater&lt;/strong&gt; (in both its hybrid live/electronic format and 8-piece soul/reggae ensemble), Chelsea has toured nationally and shared stages with international icons. As an independent artist and freelancer, she is also an in-demand collaborator across corporate party outfits, funk collectives, tribute shows, and touring roots acts — bringing world-class musicianship, versatility, and authenticity to every stage.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="badge"&gt;Sax • Clarinet • Flute&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="badge"&gt;Keys • Vocals&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="badge"&gt;Ableton / Live Electronics&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;article class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Sky Eater — Flagship Project&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Export-ready original act blending live musicianship with bass-heavy electronic production. Two flexible booking formats:&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="tiles"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tile"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Hybrid / Live-Electronic (Duo/Trio)&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;li&gt;Dub, trip-hop, DnB/reggae textures&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;li&gt;Live horns, vocals, keys with electronics&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;li&gt;Festival/club ready • Quick changeover&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tile"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;8-Piece All-Live Band&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;li&gt;Soul/jazz/reggae focus (as on &lt;em&gt;Submerged&lt;/em&gt;)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;li&gt;Horn section + rhythm section + vocals&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;li&gt;For stages needing a full live experience&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="muted" style="margin-top:8px;"&gt;For bookings: hybrid club sets, festival main-stage, supports, and curated arts programming.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Collaborations &amp; Associated Projects --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="card" style="margin-top:14px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;Collaborations &amp;amp; Associated Projects&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;ul class="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;strong&gt;Jam Hot&lt;/strong&gt; — DJ/Sax/World-class Vocals/Percussion (corporate party/covers)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;strong&gt;Soiree&lt;/strong&gt; — DJ/Horn Section (corporate party/covers)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;strong&gt;Hayley Grace &amp;amp; The Bay Collective&lt;/strong&gt; — 7-piece femme-focused funk band&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;strong&gt;“Celebrating The Cure with Tobias”&lt;/strong&gt; — The Cure tribute band&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;strong&gt;Jesse Morris &amp;amp; The Shakedown&lt;/strong&gt; — Folk troubadour meets roots reggae (4–7 piece)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Booking targets / Availability --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="card" style="margin-top:14px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;Current Focus&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;ul class="list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;strong&gt;Touring &amp;amp; support slots:&lt;/strong&gt; Australia, NZ, UK/Europe, Japan, North America, Canada&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;strong&gt;Management &amp;amp; export partners&lt;/strong&gt; for Sky Eater (both formats)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;&lt;strong&gt;Sync/licensing&lt;/strong&gt; for bass-rich, melodic, dub/trip-hop works&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- QR bottom-right --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;img class="qr" src="linktree-qr.png" alt="Scan for music/videos (Linktree)" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="qr-note"&gt;Scan for music, video, EPK&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
